@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  node:
+    build: ./
+    image: node:10.16-vue
+    working_dir: /vue-components
+    volumes:
+      - ./:/vue-components
+    command: bash -c "npm i -s sass sass-loader; npm run build-bundle"
