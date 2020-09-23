@@ -4,7 +4,6 @@
   </div>
 </template>
 
-<!-- <script type="text/javascript" src="./script.js" /> -->
 <script type="text/javascript">
   const defaultStyles = {
     left: 0,
@@ -35,7 +34,6 @@
   };
 </script>
 
-<!-- <style scoped lang="scss" src="./style.scss" /> -->
 <style scoped lang="scss">
   .banner {
     padding: 12px;

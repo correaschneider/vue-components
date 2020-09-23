@@ -1,10 +1,10 @@
 import Vue from "vue";
-import Banner from "./Banner";
-import Button from "./Button";
+import VCompoBanner from "./VCompoBanner";
+import VCompoButton from "./VCompoButton";
 
 const Components = {
-  Banner,
-  Button
+  VCompoBanner,
+  VCompoButton
 };
 
 Object.keys(Components).forEach(name => {
