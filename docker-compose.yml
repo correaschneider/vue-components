@@ -7,4 +7,4 @@ services:
     working_dir: /vue-components
     volumes:
       - ./:/vue-components
-    command: bash -c "npm i -s sass sass-loader; npm run build-bundle"
+    command: bash -c "npm i -D sass sass-loader; npm i; npm run build-bundle"
